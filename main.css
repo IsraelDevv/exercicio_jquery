@@ -1,0 +1,48 @@
+/* Adicione seu estilo aqui */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.task-app {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+h1 {
+    text-align: center;
+    background-color:blueviolet ;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+li {
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.completed {
+    position: relative;
+    text-decoration: line-through;
+}
+
+.completed:before {
+    content: '\2022'; 
+    position: absolute;
+    left: -15px;
+    
+}
+
+
+
